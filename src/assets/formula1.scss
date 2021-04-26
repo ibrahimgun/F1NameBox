@@ -1,0 +1,79 @@
+
+
+@font-face {
+    font-family: Formula1;
+    src: url(https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf);
+  }
+  .namebox {
+      margin: auto;
+      margin-bottom: 8px;
+      font-family: Formula1;
+      display: flex;
+      background-color: black;
+      color: white;
+      padding: 4.8px;
+      border-radius: 1.6px;
+      border-bottom-right-radius: 11.2px;
+      width: 480px;
+      .grid {
+          background-color: #fff;
+          color: black;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 28px;
+          width: 48px;
+          border-radius: 1.6px;
+          border-bottom-right-radius: 11.2px;
+          span {
+              transform: scaleX(0.8);
+          }
+      }
+      .line {
+          margin: 0 6.4px;
+          width: 4px;
+          div {
+              height: 70%;
+              position: relative;
+              top: 50%;
+              transform: translateY(-50%);
+          }
+      }
+      .driver {
+          line-height: 1;
+          margin: 3.2px 0 6.4px;
+          letter-spacing: 0.75px;
+          .name {
+              font-size: 21.2px;
+              margin-bottom: 4px;
+              .firstname {
+                  float: left;
+                  padding-right: 5.6px;
+                  text-transform: capitalize;
+              }
+              .lastname {
+                  float: left;
+                  font-weight: bold;
+                  text-transform: uppercase;
+              }
+          }
+          .constructor {
+              float: left;
+              font-size: 14.4px;
+          }
+      }
+      .ident {
+          width: 48px;
+          text-align: center;
+          margin-left: auto;
+          .number {
+              font-size: 24px;
+              font-style: italic;
+          }
+          .abbreviation {
+              font-size: 12.8px;
+              text-transform: uppercase;
+          }
+      }
+  }
+  
